@@ -17,7 +17,8 @@ body {
 .header-container {
     display: flex;
     padding: 0px;
-    margin: -15px;
+    margin: -10px;
+    margin-right: -51px;
     background-color: rgba(0, 0, 0, 0.765);
     justify-content: space-between;
     
@@ -65,6 +66,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.765);
     margin: -1%;
     padding: 3%;
+    margin-right: -30px;
 
 }
 
