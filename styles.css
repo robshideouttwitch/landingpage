@@ -16,8 +16,8 @@ body {
 
 .header-container {
     display: flex;
-    padding: 35px;
-    margin: -21px;
+    padding: 0px;
+    margin: -15px;
     background-color: rgba(0, 0, 0, 0.765);
     justify-content: space-between;
     
@@ -44,7 +44,7 @@ h1 {
     display: flex;
     border: 3px solid;
     padding: 0px;
-    margin: 40px;
+    margin: 200px;
     border-left: 0px;
     border-right: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,18 +61,20 @@ h2 {
 
 .Projects {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.765);
     margin: -1%;
     padding: 3%;
+
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -30px;
+    margin-top: 240px;
     text-align: center;
     color: aliceblue;
-    font-size: 34px;
+    font-size: 55px;
+    
 }
 
 .DS {
@@ -133,3 +135,266 @@ a:link, a:visited {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+.DD {
+    position: relative; /* required for (c2) */
+    max-width: 400px; /* optional */
+  }
+
+.DD img { width: 100%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.DD2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 54%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .DD2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .DD:hover .DD2 {
+    visibility: visible; opacity: 1;
+  }
+
+
+.Bat {
+    position: relative; /* required for (c2) */
+    max-width: 400px; /* optional */
+  }
+
+.Bat img { width: 100%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.Bat2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 54%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .Bat2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .Bat:hover .Bat2 {
+    visibility: visible; opacity: 1;
+  }
+
+.Vision {
+    display: flex;
+    border: 3px solid;
+    padding: 0px;
+    margin: 230px;
+    border-left: 0px;
+    border-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+ 
+.Shorts {
+    background-color: rgba(0, 0, 0, 0.765);
+    margin: -2%;
+    padding: 3%;
+    margin-top: -1%;
+    padding-right: 13%;    
+}
+
+
+p {
+    margin-top: -13%;
+    margin-right: -9%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NWH {
+    position: relative; /* required for (c2) */
+    max-width: 260px; /* optional */
+  }
+
+.NWH img { width: 172%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.NWH2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 172%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 30%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .NWH2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .NWH:hover .NWH2 {
+    visibility: visible; opacity: 1;
+  }
+
+.Ven {
+    position: relative; /* required for (c2) */
+    max-width: 260px; /* optional */
+  }
+
+.Ven img { width: 172%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.Ven2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 172%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .Ven2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .Ven:hover .Ven2 {
+    visibility: visible; opacity: 1;
+  }
+
+.MK {
+    position: relative; /* required for (c2) */
+    max-width: 260px; /* optional */
+
+  }
+
+.MK img { width: 172%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.MK2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 172%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .MK2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .MK:hover .MK2 {
+    visibility: visible; opacity: 1;
+  }  
+  
+.Jus {
+    position: relative; /* required for (c2) */
+    max-width: 260px; /* optional */
+
+  }
+
+.Jus img { width: 172%;
+         border-radius: 24px;
+         }
+/* (C) CAPTION */
+.Jus2 {
+    /* (C1) DIMENSIONS */
+    box-sizing: border-box;
+    width: 172%;
+    height: 100%;
+    border-radius: 24px;
+   
+    /* (C2) POSITION */
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+     /* (C3) COLORS */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+   
+  /* (D) SHOW/HIDE */
+  .Jus2 {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .Jus:hover .Jus2 {
+    visibility: visible; opacity: 1;
+  }
+  
