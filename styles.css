@@ -399,4 +399,106 @@ p {
   .Jus:hover .Jus2 {
     visibility: visible; opacity: 1;
   }
-  
+
+.aboutus {
+  background-color: rgba(0, 0, 0, 0.765) ;
+  margin-top: -240px;
+  margin-right: -10px;
+  margin-left: -60px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 200px;
+  padding: 0px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.rob {
+  position: relative; /* required for (c2) */
+  max-width: 260px; /* optional */
+
+}
+
+.rob img { width: 400%;
+       border-radius: 24px;
+       }
+/* (C) CAPTION */
+.rob2 {
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 400%;
+  height: 100%;
+  border-radius: 24px;
+ 
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0; left: 0;
+  text-align: center;
+  text-align: justify ;
+  text-decoration: solid;
+  letter-spacing: 1px;
+  padding-top: 140%;
+  padding-right: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+   /* (C3) COLORS */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+ 
+/* (D) SHOW/HIDE */
+.rob2 {
+  visibility: none; opacity: 0;
+  transition: opacity 0.3s;
+}
+.rob:hover .rob2 {
+  visibility: visible; opacity: 1;
+}
+
+.ben {
+  position: relative; /* required for (c2) */
+  max-width: 87px; /* optional */
+
+}
+
+.ben img { width: 400%;
+       border-radius: 24px;
+       }
+/* (C) CAPTION */
+.ben2 {
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 400%;
+  height: 100%;
+  border-radius: 24px;
+ 
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0; left: 0;
+  text-align: center;
+  text-align: justify ;
+  text-decoration: solid;
+  letter-spacing: 1px;
+  padding-top: 140%;
+  padding-right: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+   /* (C3) COLORS */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+ 
+/* (D) SHOW/HIDE */
+.ben2 {
+  visibility: none; opacity: 0;
+  transition: opacity 0.3s;
+}
+.ben:hover .ben2 {
+  visibility: visible; opacity: 1;
+}
